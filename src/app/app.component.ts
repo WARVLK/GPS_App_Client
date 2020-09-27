@@ -7,7 +7,7 @@ export const OAuthConfig: AuthConfig = {
   issuer: 'https://www.strava.com/api/v3/oauth/authorize',
   loginUrl: 'https://www.strava.com/api/v3/oauth/authorize',
   oidc: false,
-  redirectUri: window.location.origin,
+  redirectUri: window.location.origin + "/login",
   clientId: '50927',
   responseType: 'code',
   scope: 'activity:write,read',
